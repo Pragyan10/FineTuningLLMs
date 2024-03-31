@@ -11,7 +11,9 @@
 ### How to run?
 - To run the notebook make sure to have access to GPU with high ram. Select the appropriate dataset partioning that you would wish to use to train and test the models. Change the parameters as needed. No further dependencies needed to be installed. (If required please uncomment the comments so that the needed dependencies will be installed.) Make sure to change the path for the output of the model.
 - We use 30k data from the dataset*
-- GPU Used -> A100 and RTX 6000 (A100 for training and RTX 6000 for genearting prediction and evalaution) 
+- GPU Used -> V100, A100 and RTX 6000 (A100 for training and RTX 6000 for genearting prediction and evalaution)
+- Running Time -> Training Llama2: 4 hours 25 mins (V100)** | Training Phi2: 1 hour 34 mins (V100)** | Training Mistral: 2 hours 43 mins (A100)**
+- Prediction and Evaualution using RTX 6000
 
 ### File descriptions:
 
@@ -76,3 +78,4 @@ The generation were compared to the output column from the dataset (ground truth
 
 
 *(due to memory limitation)
+** Ran on Google Colab
