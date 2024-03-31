@@ -6,11 +6,11 @@
 - Phi2 [3] -> https://huggingface.co/microsoft/phi-2
 
 ### Dataset used:
-- alpace [4] -> https://huggingface.co/datasets/tatsu-lab/alpaca
+- Alpace [4] -> https://huggingface.co/datasets/tatsu-lab/alpaca
 
 ### How to run?
 - To run the notebook make sure to have access to GPU with high ram. Select the appropriate dataset partioning that you would wish to use to train and test the models. Change the parameters as needed. No further dependencies needed to be installed. (If required please uncomment the comments so that the needed dependencies will be installed.) Make sure to change the path for the output of the model.
-- We use 30k data from the dataset (due to memory limitation)
+- We use 30k data from the dataset*
 
 ### File descriptions:
 
@@ -45,7 +45,7 @@ The generation were compared to the output column from the dataset (ground truth
 
 ### Hyperparameter Changes
 
-**Discussion** - The parameter changes does make some affect on the prediction that the model generates. Since we use a smaller sample for testing the fluctuation in results in not substaintial (due to memory limitation). 
+**Discussion** - The parameter changes does make some affect on the prediction that the model generates. Since we use a smaller sample for testing* the fluctuation in results in not substaintial . 
 
 ### Table [6] -> Top_k
 
@@ -73,3 +73,5 @@ The generation were compared to the output column from the dataset (ground truth
 | Mistral    | 0.25, 0.45, 0.70, 0.95      | 0.07, 0.07, 0.06, 0.06        | 0.21, 0.21, 0.20, 0.21              | 0.85, 0.85, 0.84, 0.85             | 0.80, 0.82, 0.85, 0.87          |
 
 
+
+*(due to memory limitation)
