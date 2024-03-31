@@ -46,25 +46,25 @@ Overal results show that all the fine tuned models do almost similar in text gen
 
 | Model Name | Hyperparameters | BLEU | Rouge-L | BERTScore | Human Evaluation |
 |:-------------|:--------------:|--------------:| --------------:|--------------:| :--------------:|
-| Llama 2         | X           | X          | X           | X          | X          |
-| Phi 2    | X      | X     | X           | X          | X          |
-| Mistral    | X      | X     | X           | X          | X          |
+| Llama 2         | 3, 4, 5, 6           | 0.07, 0.06, 0.06, 0.07            | 0.21, 0.21, 0.20, 0.21              | 0,84, 0.84, 0.84, 0.84           | X          |
+| Phi 2    | 3, 4, 5, 6      |  0.07, 0.06, 0.08, 0.07      | 0.20, 0.21, 0.22, 0.22            | 0.85, 0.85, 0.85, 0.85          | X          |
+| Mistral    | 3, 4, 5, 6      | 0.06, 0.07, 0.06, 0.07      | 0.20, 0.21, 0.20, 0.21             | 0.84, 0.85, 0.84, 0.85           | X          |
 
 ### num_beams
 
 | Model Name | Hyperparameters | BLEU | Rouge-L | BERTScore | Human Evaluation |
 |:-------------|:--------------:|--------------:| --------------:|--------------:| :--------------:|
-| Llama 2         | X           | X          | X           | X          | X          |
-| Phi 2    | X      | X     | X           | X          | X          |
-| Mistral    | X      | X     | X           | X          | X          |
+| Llama 2         | 6, 7, 8, 9           | X          | X           | X          | X          |
+| Phi 2    | 6, 7, 8, 9      | X     | X           | X          | X          |
+| Mistral    | 6, 7, 8, 9      | X     | X           | X          | X          |
 
 
 ### temperature
 
 | Model Name | Hyperparameters | BLEU | Rouge-L | BERTScore | Human Evaluation |
 |:-------------|:--------------:|--------------:| --------------:|--------------:| :--------------:|
-| Llama 2         | X           | X          | X           | X          | X          |
-| Phi 2    | X      | X     | X           | X          | X          |
-| Mistral    | X      | X     | X           | X          | X          |
+| Llama 2         | 0.25, 0.45, 0.70, 0.95           | X          | X           | X          | X          |
+| Phi 2    | 0.25, 0.45, 0.70, 0.95      | X     | X           | X          | X          |
+| Mistral    | 0.25, 0.45, 0.70, 0.95      | X     | X           | X          | X          |
 
 
