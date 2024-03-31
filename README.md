@@ -46,7 +46,7 @@ The generation were compared to the output column from the dataset (ground truth
 
 ### Hyperparameter Changes
 
-**Discussion** - The parameter changes does make some affect on the prediction that the model generates. Since we use a smaller sample for testing* the fluctuation in results in not substaintial . 
+**Discussion** - The parameter changes does make some changes on the prediction that the model generates. Since we use a smaller sample for testing* the fluctuation in results in not substaintial but still some changes. Thing to notice is temperature change didn't affect the results much where infact the temperature was supposed to make the token generation different.  
 
 ### Table [6] -> Top_k
 
