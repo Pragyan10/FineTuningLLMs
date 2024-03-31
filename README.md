@@ -54,9 +54,9 @@ Overal results show that all the fine tuned models do almost similar in text gen
 
 | Model Name | Hyperparameters | BLEU | Rouge-L | BERTScore | Human Evaluation |
 |:-------------|:--------------:|--------------:| --------------:|--------------:| :--------------:|
-| Llama 2         | 6, 7, 8, 9           | X          | X           | X          | X          |
-| Phi 2    | 6, 7, 8, 9      | X     | X           | X          | X          |
-| Mistral    | 6, 7, 8, 9      | X     | X           | X          | X          |
+| Llama 2         | 6, 7, 8, 9           | 0.06, 0.06, 0.06, 0.07            | 0.23, 0.22, 0.23, 0.23            | 0.84, 0.85, 0.84, 0.84           | X          |
+| Phi 2    | 6, 7, 8, 9      | 0.06, 0.06, 0.07, 0.07       | 0.21, 0.21, 0.22, 0.22             | 0.85, 0.85, 0.85, 0.85            | X          |
+| Mistral    | 6, 7, 8, 9      | 0.06, 0.06, 0.07, 0.06        | 0.19, 0.20, 0.19, 0.20             | 0.85, 0.84, 0.85, 0.84            | X          |
 
 
 ### temperature
