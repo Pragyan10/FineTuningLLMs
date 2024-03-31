@@ -1,15 +1,26 @@
 ## Fine tuning 3 models - Llama2, Mistral, and Phi2
 
 ### Model details:
-- LLama2 -> https://huggingface.co/NousResearch/Llama-2-7b-chat-hf
-- Misral -> https://huggingface.co/mistralai/Mistral-7B-v0.1
-- Phi2 -> https://huggingface.co/microsoft/phi-2
+- LLama2 [1] -> https://huggingface.co/NousResearch/Llama-2-7b-chat-hf
+- Misral [2] -> https://huggingface.co/mistralai/Mistral-7B-v0.1
+- Phi2 [3] -> https://huggingface.co/microsoft/phi-2
 
 ### Dataset used:
-- alpace -> https://huggingface.co/datasets/tatsu-lab/alpaca
+- alpace [4] -> https://huggingface.co/datasets/tatsu-lab/alpaca
 
 ### How to run?
-- To run the notebook make sure to have access to GPU with high ram. Select the appropriate dataset partioning that you would wish to use t train and test the models. Change the parameters as needed. No further dependencies needed to be installed. (If required please uncomment the comments so that the needed dependencies will be installed.)
+- To run the notebook make sure to have access to GPU with high ram. Select the appropriate dataset partioning that you would wish to use t train and test the models. Change the parameters as needed. No further dependencies needed to be installed. (If required please uncomment the comments so that the needed dependencies will be installed.) Make sure to change the path for the output of the model.
+
+### File descriptions:
+
+**FineTuneLLama2_Assignment1C** -> Fine tuning LLama2 [1] using alpaca dataset [4]. 
+**FineTuneMistral_Assignment1C** -> Fine tuning Mistral [2] using alpaca dataset [4]. 
+**FineTunePhi2_Assignment1C(1)** -> Fine tuning Phi2 [3] using alpaca dataset [4]. 
+
+**CalculateScoresForFineTunedModels** -> Genearte predictions using the testing set and evaluate them using 3 metrics: BLEU, ROUGE-L, and BERTScore. We also consider human evaluation (this is done by manually looking at the predictions. 
+
+**CalculateScoresForFineTunedModels-DifferentTopKValues** -> Genearte predictions using the testing set but with hyperparameter changes (See Table [6] for more details). Evaluate them using 3 metrics: BLEU, ROUGE-L, and BERTScore. We also consider human evaluation (this is done by manually looking at the predictions. 
+
 
 ## Results 
 
@@ -55,3 +66,5 @@ Overal results show that all the fine tuned models do almost similar in text gen
 | Llama 2         | X           | X          | X           | X          | X          |
 | Phi 2    | X      | X     | X           | X          | X          |
 | Mistral    | X      | X     | X           | X          | X          |
+
+
