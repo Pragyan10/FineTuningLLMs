@@ -11,6 +11,7 @@
 ### How to run?
 - To run the notebook make sure to have access to GPU with high ram. Select the appropriate dataset partioning that you would wish to use to train and test the models. Change the parameters as needed. No further dependencies needed to be installed. (If required please uncomment the comments so that the needed dependencies will be installed.) Make sure to change the path for the output of the model.
 - We use 30k data from the dataset*
+- GPU Used -> A100 and RTX 6000 (A100 for training and RTX 6000 for genearting prediction and evalaution) 
 
 ### File descriptions:
 
