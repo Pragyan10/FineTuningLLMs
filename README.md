@@ -1,4 +1,13 @@
 | Model Name | BLEU | Rouge-L | BERTScore | Human Evaluation |
 |:-------------|:--------------:|--------------:| --------------:|--------------:|
-| Text         | Text           | Text          | Text           | Text          |
-| More Text    | More Text      | More Text     | Text           | Text          |
+| Llama 2         | X           | X          | X           | X          |
+| Phi 2    | X      | X     | X           | X          |
+| Mistral    | X      | X     | X           | X          |
+
+
+
+| Model Name | Hyperparameters | BLEU | Rouge-L | BERTScore | Human Evaluation |
+|:-------------|:--------------:|--------------:| --------------:|--------------:| :--------------:|
+| Llama 2         | X           | X          | X           | X          | X          |
+| Phi 2    | X      | X     | X           | X          | X          |
+| Mistral    | X      | X     | X           | X          | X          |
